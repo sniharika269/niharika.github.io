@@ -27,7 +27,7 @@ if(!localStorage.getItem('name')) {
 } else {
   alert("We've met before, haven't we?");
   let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  myHeading.textContent = 'Books are cool, ' + storedName;
 }
 
 myButton.onclick = function() {
